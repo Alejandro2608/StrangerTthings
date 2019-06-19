@@ -26,3 +26,15 @@ for(var k=0;k<puntosArtefactos.length; k++){
     document.write("<h3>Los puntos que recogio " +amigos[k]+ 
     " fueron en total" +puntosArtefactos);
 }
+
+
+
+
+
+    if (puntosArtefactos>=totalPuntos){
+        document.write(" La cantidad de puntos es suficiente para salvar a will " + puntosArtefactos);
+    }else{
+        return document.write( + " la cantidad de puntos no es suficiente para salvar a will " + puntosArtefactos);
+    
+    }
+
